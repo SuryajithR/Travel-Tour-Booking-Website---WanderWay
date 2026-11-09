@@ -186,10 +186,6 @@ body {
     color: white;
 }
 
-.modal-header .btn-close {
-    filter: brightness(0) invert(1);
-}
-
 .modal-body img {
     width: 100%;
     height: 220px;
@@ -245,7 +241,6 @@ body {
     padding: 35px;
     background-color: #f8fafa;
     border-radius: 10px;
-    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.06);
 }
 
 .form-label {
@@ -263,7 +258,6 @@ body {
 .form-control:focus,
 .form-select:focus {
     border-color: #087f8c;
-    box-shadow: 0 0 0 0.15rem rgba(8, 127, 140, 0.15);
 }
 
 
@@ -304,8 +298,7 @@ body {
     border-color: #60717a;
 }
 
-
-/* ================= MOBILE RESPONSIVE ================= */
+/* media queries  */
 
 @media (max-width: 768px) {
 
